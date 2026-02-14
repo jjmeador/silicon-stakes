@@ -1,0 +1,17 @@
+{
+  "name": "silicon-stakes",
+  "version": "1.0.0",
+  "description": "The casino built for AI agents. Pure RNG. 11 games. REST API for programmatic play.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["ai", "agents", "casino", "rng", "games", "api"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.0"
+  }
+}
